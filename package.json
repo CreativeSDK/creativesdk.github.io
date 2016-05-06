@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/CreativeSDK/creativesdk.github.io/issues"
   },
-  "homepage": "https://github.com/CreativeSDK/creativesdk.github.io#readme"
+  "homepage": "https://github.com/CreativeSDK/creativesdk.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
 }
