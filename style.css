@@ -1,0 +1,45 @@
+.intro {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.content-section-intro {
+	text-align: center;
+	background-color: gray;
+	color: white;
+	padding-bottom: 10px;
+}
+
+.content-a {
+	padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.learn-more {
+    padding: 100px 0;
+    background-color: gray;
+    color: white;
+}
+
+.learn-more h2 {
+	margin: 0;
+	font-size: 3em;
+}
+
+.learn-more-ul {
+	float: right;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.caption {
+	text-align: center;
+	font-style: italic;
+	color: gray;
+}

@@ -3,25 +3,48 @@
 <head>
 	<title>The Adobe Creative SDK on GitHub</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<div class="intro">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1>The Adobe Creative SDK on GitHub</h1>
+				<h1><img src="img/CSDK-logo.png" class="img-responsive center-block"></h1>
 
 				<p>Welcome to <a href="https://github.com/CreativeSDK/">the Creative SDK's GitHub organization</a>.</p>
 			</div> <!-- Close column -->
-		</div> <!-- Close .row -->
 
+			<div class="col-sm-12">
+				<hr>
+				<ul class="list-inline">
+					<li><a href="#androidguidesandrepos" class="btn btn-default"><i class="fa fa-android"></i> Android</a></li>
+					<li><a href="#iosguidesandrepos" class="btn btn-default"><i class="fa fa-apple"></i> iOS</a></li>
+					<li><a href="#webguidesandrepos" class="btn btn-default"><i class="fa fa-desktop"></i> Web</a></li>
+					<li><a href="#plugins" class="btn btn-default"><i class="fa fa-plug"></i> Plugins</a></li>
+				</ul>
+			</div>
+		</div> <!-- Close .row -->
+	</div> <!-- Close .container -->
+</div> <!-- Close .intro -->
+
+<div class="content-section-intro">
+	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<h2>Sample app repos and guides</h2>
+				<h2>Sample app repos and developer guides</h2>
 			</div> <!-- Close column -->
+		</div>
+	</div>	
+</div>
 
-			<div class="col-md-4">
-				<h3 id="androidguidesandrepos">Android</h3>
+<div class="content-a">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h3 id="androidguidesandrepos"><i class="fa fa-android"></i> Android</h3>
 
 				<ul>
 					<li>Getting Started: <a href="https://creativesdk.adobe.com/docs/android/#/articles/gettingstarted/index.html">guide</a>, <a href="https://github.com/CreativeSDK/android-getting-started-samples/tree/master/getting-started">repo</a></li>
@@ -33,9 +56,26 @@
 				</ul>
 			</div> <!-- Close column -->
 
-			<div class="col-md-4">
+			<div class="col-md-6">
+				<img src="img/send-to-desktop-flow.png" class="img-responsive">
+				<p class="caption">Send To Desktop API (Android, iOS)</p>
+			</div>
 
-				<h3 id="iosguidesandrepos">iOS</h3>
+		</div> <!-- Close .row -->
+	</div> <!-- Close .container -->
+</div> <!-- Close .content-a -->
+
+<div class="content-b">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<img src="img/asset-browser-ui.png" class="img-responsive">
+				<p class="caption">Asset Browser UI (Android, iOS)</p>
+			</div>
+
+			<div class="col-md-6">
+
+				<h3 id="iosguidesandrepos"><i class="fa fa-apple"></i> iOS</h3>
 
 				<ul>
 					<li>Getting Started: <a href="https://creativesdk.adobe.com/docs/ios/#/articles/gettingstarted/index.html">guide</a>, <a href="https://github.com/CreativeSDK/ios-getting-started-samples/tree/master/Getting%20Started">repo</a></li>
@@ -50,10 +90,16 @@
 					<li>Adobe Labs: <a href="https://creativesdk.adobe.com/docs/ios/#/articles/labs/index.html">guide</a>, <a href="https://github.com/CreativeSDK/ios-getting-started-samples/tree/master/Getting%20Started%20with%20Labs">repo</a></li>
 				</ul>
 			</div> <!-- Close column -->
+		</div> <!-- Close .row -->
+	</div> <!-- Close .container -->
+</div> <!-- Close .content-a -->
 
-			<div class="col-md-4">
+<div class="content-a">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
 
-				<h3 id="webguidesandrepos">Web</h3>
+				<h3 id="webguidesandrepos"><i class="fa fa-desktop"></i> Web</h3>
 
 				<p>Web Image Editor guides:</p>
 
@@ -78,15 +124,35 @@
 				</ul>
 
 			</div> <!-- Close column -->
-		</div> <!-- Close .row -->
 
+			<div class="col-md-6">
+				<img src="img/image-editor-ui.png" class="img-responsive">
+				<p class="caption">Image Editor UI (Android, iOS, Web)</p>
+			</div>
+		</div> <!-- Close .row -->
+	</div> <!-- Close .container -->
+</div> <!-- Close .content-a -->
+
+<div class="content-section-intro">
+	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<h2>Plugins</h2>
+				<h2 id="plugins">Plugins</h2>
 			</div> <!-- Close column -->
+		</div>
+	</div>	
+</div>
 
-			<div class="col-md-4">
-				<h3 id="phonegapplugins">PhoneGap</h3>
+<div class="content-b">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<img src="img/phonegap-template-image-editor.png" class="img-responsive">
+				<p class="caption">Image Editor UI PhoneGap template (Android, iOS)</p>
+			</div>
+
+			<div class="col-md-6">
+				<h3 id="phonegapplugins"><i class="fa fa-plug"></i> PhoneGap</h3>
 				<p>Compatible with PhoneGap, Cordova, and Ionic.</p>
 
 				<ul>
@@ -97,25 +163,34 @@
 				</ul>
 			</div> <!-- Close column -->
 		</div> <!-- Close .row -->
+	</div> <!-- Close .container -->
+</div> <!-- Close .content-a -->
 
+<div class="learn-more">
+	<div class="container">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-lg-3">
 				<h2>Learn more</h2>
 			</div> <!-- Close column -->
 
-			<div class="col-md-4">
-				<a href="http://creativesdk.com">creativesdk.com</a>
-			</div>
+			<div class="col-lg-9">
+				<ul class="list-inline learn-more-ul">
+					<li>
+						<a href="http://creativesdk.com" class="btn btn-default btn-lg">Developer portal</a>
+					</li>
 
-			<div class="col-md-4">
-				<a href="http://blog.creativesdk.com">The Creative SDK Blog</a>
-			</div>
+					<li>
+						<a href="http://blog.creativesdk.com" class="btn btn-default btn-lg">Blog</a>
+					</li>
 
-			<div class="col-md-4">
-				<a href="http://twitter.com/creativesdk">@creativesdk</a>
+					<li>
+						<a href="http://twitter.com/creativesdk" class="btn btn-default btn-lg">Twitter</a>
+					</li>
+				</ul>
 			</div>
 		</div> <!-- Close .row -->
-
 	</div> <!-- Close .container -->
+</div> <!-- Close .content-a -->
+
 </body>
 </html>
