@@ -22,20 +22,17 @@
 }
 
 .learn-more {
-    padding: 100px 0;
+    padding: 50px 0;
     background-color: gray;
     color: white;
 }
 
 .learn-more h2 {
-	margin: 0;
 	font-size: 3em;
 }
 
-.learn-more-ul {
-	float: right;
-    margin-top: 0;
-    margin-bottom: 0;
+.learn-more ul {
+	margin-top: 10px;
 }
 
 .caption {
